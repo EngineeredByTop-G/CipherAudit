@@ -1,0 +1,30 @@
+# CipherAudit — Dependencies
+# Install: pip install -r requirements.txt
+# Python 3.13+ required
+
+# Advanced certificate parsing beyond built-in ssl
+pyOpenSSL==26.0.0
+
+# Low-level cryptographic operations and cipher evaluation
+cryptography==46.0.6
+
+# Terminal output formatting (tables, progress bars, colour)
+rich==14.3.3
+
+# PDF generation
+reportlab==4.4.10
+
+# HTTP utility functions
+requests==2.33.0
+
+# --- Transitive dependencies (pinned for reproducibility) ---
+certifi==2026.2.25
+cffi==2.0.0
+charset-normalizer==3.4.6
+idna==3.11
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pillow==12.1.1
+pycparser==3.0
+Pygments==2.20.0
+urllib3==2.6.3
