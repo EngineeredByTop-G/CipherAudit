@@ -143,8 +143,6 @@ python main.py --verbose
 ## Author
 
 **Gowtham Gowda**
-**MSc Computer Networking & Cybersecurity**
-London Metropolitan University
 
 ---
 
